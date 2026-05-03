@@ -28,3 +28,11 @@ for num in nums:
 print("List:", nums)
 print("Second Largest:", second_largest)
 print("Second Smallest:", second_smallest)
+
+lst = [10, 5, 20, 8, 15]
+
+lst = list(set(lst))   # remove duplicates
+lst.sort()
+
+print("Second Smallest:", lst[1])
+print("Second Largest:", lst[-2])
